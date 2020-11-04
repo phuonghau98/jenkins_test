@@ -18,5 +18,6 @@ Build:
   stage: build
   cache:
     policy: pull
+    untracked: true
   script:
     - ls
