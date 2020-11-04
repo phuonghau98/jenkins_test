@@ -17,6 +17,6 @@ InstallDependencies:
 Build:
   stage: build
   cache:
-    untracked: false
+    policy: pull
   script:
     - ls
