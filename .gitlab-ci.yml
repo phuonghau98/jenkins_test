@@ -11,12 +11,12 @@ cache:
 
 InstallDependencies:
   stage: install
-  cache:
-    untracked: false
   script:
     - npm install
 
 Build:
   stage: build
+  cache:
+    untracked: false
   script:
     - ls
