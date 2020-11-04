@@ -11,6 +11,8 @@ cache:
 
 InstallDependencies:
   stage: install
+  cache:
+    untracked: false
   script:
     - npm install
 
