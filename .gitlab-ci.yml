@@ -1,0 +1,18 @@
+
+stages:
+  - install
+  - build
+
+cache:
+  paths:
+    - node_modules/
+
+InstallDependencies:
+  stage: install
+  script:
+    - npm install
+
+Build:
+  stage: build
+  script:
+    - ls
