@@ -2,6 +2,8 @@
 stages:
   - install
   - build
+before_script:
+  - export PATH=$PATH:$HOME/.nvm/versions/node/v11.11.0/bin/
 
 cache:
   paths:
